@@ -1,0 +1,17 @@
+/* *{
+    overflow: hidden;
+} */
+.container{
+   max-width: 1144px;
+   margin-bottom: 100px;
+}
+.row{
+    max-width: 1144px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.orange-bg{
+    background-color: #FCEAE8;
+    border-radius: 10px;
+}
