@@ -2,10 +2,11 @@
     overflow: hidden;
 } */
 .container{
-   max-width: 1144px;
+  max-width: 1150px;
    margin-bottom: 100px;
 }
 .row{
+    box-sizing: border-box;
     max-width: 1144px;
 }
 .carousel-item{
@@ -14,4 +15,74 @@
 .orange-bg{
     background-color: #FCEAE8;
     border-radius: 10px;
+}
+.price{
+    color: #FF136F;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+
+
+.cat-1{
+    background-color: #FFA500;
+}
+.cat-2{
+    background-color: #DA70D6;
+}
+.cat-3{
+    background-color: #0000FF;
+}
+.cat{
+    padding: 20px 40px;
+    border-radius: 10px;
+
+    color: white;
+}
+.cat img{
+    width: 100px;
+}
+
+.sec-title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.card{
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.form{
+    max-width: fit-content;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.input{
+    margin-bottom: 15px;
+}
+#subscribe{
+    background-color: thistle;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#subscribe h2{
+    padding-top: 50px;
+    border-radius: 50px;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .cat{
+        margin-bottom: 10px;
+    }
+
 }
